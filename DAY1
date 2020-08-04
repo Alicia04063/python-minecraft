@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Aug  3 11:23:28 2020
+
+@author: D305
+"""
+from mcpi.minecraft import Minecraft
+import time
+mc = Minecraft.create()
+time.sleep(5)
+X = 78.326
+Y = 88.447
+Z = 87.969
+print(mc.player.getTilePos())
+
+X = 78.326
+Y = 88.447
+Z = 87.969
+mc.player.setPos(X,Y,Z)
+health = 20
+health-health-2
+print(health)
+import time
+    
